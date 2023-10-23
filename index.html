@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto BT21</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <script defer src="./src/js/index.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="Logo" src="./src/imagens/logo.png" alt="Logo BT21">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+
+                <!-- !personagem TATA -->
+                <li class="personagem selecionado" id="tata" data-name="Tata" 
+                data-description="Tata é descrito como um alienígena que caiu na Terra e tem uma personalidade alegre e amigável. Ele também é conhecido por sua curiosidade e sua natureza amorosa. Tata tem uma relação especial com um dos outros personagens BT21, o RJ, e juntos, eles representam a amizade e a união.">
+                    <img src="./src/imagens/card-tata.jpg" alt="Personagem Tata">
+                </li>
+                
+                <!-- !personagem CHIMMY -->
+                <li class="personagem" id="chimmy" data-name="Chimmy" data-description="Ele é descrito como um cãozinho alegre e cheio de energia, sempre pronto para brincar e se divertir. Chimmy é um personagem ativo e animado que adora espalhar alegria e animar seus amigos. Sua história na franquia BT21 gira em torno de sua missão de proteger o Heart of BT21, um elemento central na narrativa da marca.">
+                    <img src="./src/imagens/card-chimmy.jpg" alt="Personagem Chimmy">
+                </li>
+                
+                <!-- !personagem RJ -->
+                <li class="personagem" id="rj" data-name="Rj" data-description="A personalidade de RJ é frequentemente descrita como calma, pacífica e gentil. Ele é retratado como um personagem que valoriza a harmonia e a tranquilidade. RJ tem uma conexão especial com outro personagem BT21, o Tata, e juntos, representam a amizade e a união.">
+                    <img src="./src/imagens/card-rj.jpg" alt="Personagem Rj">
+                </li>
+
+                <!-- !personagem KOYA -->
+                <li class="personagem" id="koya" data-name="Koya" data-description="A personalidade de Koya é frequentemente descrita como calma e intelectual. Ele é retratado como um personagem pensativo e reflexivo, que gosta de ler e aprender. Koya é frequentemente visto segurando um livro e é conhecido por sua inteligência.">
+                    <img src="./src/imagens/card-koya.jpg" alt="Personagem Koya">
+                </li>
+                
+                <!-- !personagem COOKY -->
+                <li class="personagem" id="cooky" data-name="Cooky"     data-description= "A personalidade de Cooky é geralmente descrita como corajosa, determinada e cheia de energia. Ele é retratado como um personagem que adora desafios e está sempre pronto para superá-los. Cooky é muitas vezes visto como um líder entre os personagens BT21, devido à sua natureza destemida.">
+                    <img src="./src/imagens/card-cooky.jpg" alt="Personagem Cooky">
+                </li>
+                
+                <!-- !personagem MANG -->
+                <li class="personagem" id="mang" data-name="Mang" data-description="A personalidade de Mang é geralmente descrita como tímida e sonhadora. Ele é retratado como um personagem que gosta de explorar o oceano e sonhar com aventuras aquáticas. Mang é muitas vezes representado como um amante da música e tem uma afinidade especial com a dança.">
+                    <img src="./src/imagens/card-mang.jpg" alt="Personagem Mang">
+                </li>
+
+                <!-- !personagem SHOOKY -->
+                <li class="personagem" id="shooky" data-name="Shooky" data-description="A personalidade de Shooky é geralmente descrita como valente e confiante. Ele é retratado como um personagem corajoso que não tem medo de enfrentar desafios. Shooky é muitas vezes visto como um personagem forte e ousado, apesar de sua aparência fofa de biscoito.">
+                    <img src="./src/imagens/card-shooky.jpg" alt="Personagem Shooky">
+                </li>
+
+                <!-- !personagem VAN -->
+                <li class="personagem" id="van" data-name="Van" data-description="A principal função de Van é supervisionar e ajudar os outros personagens BT21 em suas aventuras e atividades. Ele atua como um guia e protetor dos personagens principais. A presença de Van simboliza a tecnologia e a inovação que desempenham um papel importante na história e na narrativa da BT21.">
+                    <img src="./src/imagens/card-van.jpg" alt="Personagem Van">
+                </li>
+            </ul>
+        </section>
+
+        <!-- ? Começando a parte do personagem selecionado ao ser clicado -->
+
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande" src="./src/imagens/card-tata.png" alt="Personagem Selecionado Tata">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Tata</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Tata é descrito como um alienígena que caiu na Terra e tem uma personalidade alegre e amigável. Ele também é conhecido por sua curiosidade e sua natureza amorosa. Tata tem uma relação especial com um dos outros personagens BT21, o RJ, e juntos, eles representam a amizade e a união.</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
